@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+label{
+    font-size: 14px;
+  }
+  
+input{
+    border: 2px solid rgb(222, 222, 222);
+    border-radius: 4px;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #67CD31;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    width: 270px;
+    height: 420px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+}
